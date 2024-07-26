@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+  
+.section-nav{
+    display: flex;
+    margin-left: 0px;
+    border-bottom: 1px solid gray ;
+    width: 100%;
+     
+}
+.container{
+    border-bottom: 1px solid gray ;
+    width: 100%;
+    background-repeat: none;
+    background-size: cover;
+    height: 130vh;
+    opacity: 0.8;
+    background-image: url("	https://hellloexpert.com/tf/html/nasarna/assets/images/slider/slide-1.jpg");
+}
+.section-nav p{
+    justify-content: space-between;
+    
+}
+.fa-arrow-left{
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 40px;
+    display: flex;
+}
+ .prev{
+   transform: translateY(600%);
+   animation-name: example;
+   animation-duration: 4s;
+}
+@keyframes example{
+    from{
+      margin-right: 40px;
+    }to{
+       margin-left: 50px;
+    }
+}
+.next{
+    transform: translateY(600%);
+    animation-name: example1;
+    animation-duration: 4s;
+    float: right;
+    margin-left: -80px;
+    margin-top: -150px;
+}
+
+
+@keyframes example1{
+    from{
+      margin-right: 40px;
+    }to{
+       margin-left: 50px;
+    }
+}
+
+.fa-right{
+    background-color: orange;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 40px;
+    display: flex;
+}
+.phone{
+    border-right: 1px solid gray;
+    margin-left: 10px;
+    
+}
+.section-right{
+    float: right;
+    display: flex;
+    margin-top: -50px;
+}
+.section-right p{
+    margin-right: 30px;
+    transform: translateX(-50%);
+}
+.fa-basket-shopping{
+    float: right;
+    margin-top: -93px;
+    transform: translateX(-450%);
+}
+.donate{
+    margin-right: 30px;
+    margin-bottom: 2px;
+    padding: 0 30px;
+    background-color: orange;
+    border-radius: 20px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.fa-phone-volume{
+    margin-left: 80px;
+}
+.num{
+    width: 20px;
+    background-color: orange;
+    border-radius: 20px;
+    float: right;
+    margin-right: 167px;
+    margin-top: -100px;
+}
+.hero-content h1{
+  font-size: 55px;
+  margin-left: 130px;
+  margin-top: 100px;
+  color: white;
+}
+.hero-hd{
+    margin-left: 130px;
+    margin-top: -10px;
+    line-height: 30px;
+}
+.hero-btn{
+    padding: 15px 40px;
+   transform: translateX(73%);
+   justify-content: space-between;
+   margin-top: 50px;
+   background-color: orange;
+   border: none;
+   border-radius: 10px;
+   font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    color: white;
+}
+.hero-btn1{
+    padding: 15px 40px;
+    transform: translateX(90%);
+   justify-content: space-between;
+   border: none;
+   border-radius: 10px;
+   font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 18px;
+
+}
+.hero-btn1:hover{
+    color: white;
+    background-color: orange;
+}
+
+.hero-span{
+    color: orange;
+}
+.fa-magnifying-glass{
+   float: right;
+   margin-right: 85px;
+   margin-top: -90px;
+}
+.hero-section{
+    border-bottom: 1px solid gray;
+}
+.phone-fa{
+    border-right: 1px solid gray;
+    margin-right: 40px; 
+
+}
+
+.phone p{
+    margin-left: 10px;
+}
+i{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+.hero{
+    margin-left: 130px;
+   
+}
+.fa-universal-access{
+    margin-left: -50px;
+    margin-top: 40px;
+}
+.hero h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: -40px;
+}
+.hero p{
+    font-size: 15px;
+    margin-top: -20px;
+}
+.hero-right{
+    float: right;
+    list-style: none;
+
+}
+ul{
+    display: flex;
+    list-style: none;transform: translateX(-30%);
+}
+li{
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-top: -70px;
+    font-size: 20px;
+    
+}
+.list{
+    justify-content: space-between;
+}
