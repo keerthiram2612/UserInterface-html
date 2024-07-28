@@ -1,0 +1,154 @@
+.section-nav ul li{
+    display: inline-block;
+    
+}
+.hero-container{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+}
+.header{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid white;
+}
+.row{
+    position: relative;
+}
+.icon-row{
+    border-bottom: 1px solid white;
+}
+.list a{
+  font-size: 17px;
+  color: white;
+}
+.image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    background-position: fixed;
+    filter: blur(3px);
+    opacity: 0.9;
+    background-image: url("https://hellloexpert.com/tf/html/nasarna/assets/images/slider/slide-1.jpg");
+}
+.section-nav li{
+    color: white;
+    margin: 10px 10px;
+}
+.section-nav ul{
+    margin: 10px 10px;
+}
+.section-nav a{
+    color: white;
+}
+.fa-phone-volume{
+    margin-right: 10px;
+}
+.phone{
+    border-right: 1px solid white;
+    margin-left: 10px;
+}
+.donate{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: orange;
+    border: none;
+}
+.section-right ul {
+   transform: translateX(32%);
+}
+.icon-row{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.fa-envelope{
+    margin-right: 10px;
+}
+.section-right ul li{
+    display: inline-block;
+}
+.section-right li{
+    margin: 10px 20px;
+    color: white;
+}
+.section-right a{
+    color: white;
+}
+.section-right ul {
+    margin: 10px 10px;
+}
+.hero{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.nav-content h1{
+    margin-right: -40px;
+}
+.fa-universal-access{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.hero h1{
+    margin-left: 180px;
+    margin-top: -45px;
+    color: white;
+}
+.hero p{
+    margin-left: 180px;
+}
+.nav-list{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.nav-list a{
+   margin-left: -10px;
+}
+.nav-list ul li{
+    display: inline-block;
+    margin: 50px 20px;
+}
+.phone-fa{
+    border-right: 1px solid white;
+}
+.body{
+    margin-top: 150px;
+    color: white;
+    margin-left: 90px;
+}
+.body h1{
+    font-size: 60px;
+}
+.body p{
+    line-height: 30px;
+    font-size: 17px;
+}
+.hero-span{
+    color: orange;
+}
+.hero-btn{
+    padding: 10px 30px;
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+.hero-btn1{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    margin-left: 40px;
+    border: none;
+}
+.btn{
+    margin-left: 180px;
+    margin-top: -20px;
+}
+
+

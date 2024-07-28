@@ -1,0 +1,28 @@
+.nav-left ul li{
+    display: inline-block;
+    position: relative;
+}
+.nav-left ul {
+    margin-top: -35px;
+}
+.nav-left li{
+    margin-left: 35px;
+}
+.nav-right ul li {
+    display: inline-block;
+}
+.nav-right ul {
+   margin: 35px 50px;
+
+}
+.nav-right li{
+   margin-left: 30px;
+
+}
+.nav-left h1{
+    margin-left: -80px;
+}
+.nav{
+    border-bottom: 1px solid gray;
+    position: relative;
+}
