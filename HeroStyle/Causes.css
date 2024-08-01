@@ -1,0 +1,345 @@
+.about-left ul li{
+    display: inline-block;
+    margin: 20px 10px;
+}
+.about-right ul li{
+    display: inline-block;
+    margin: 20px 10px;
+}
+.about-right ul li a{
+    color: gray;
+    font-size: 15px;
+}
+.about-left ul li a{
+    color: gray;
+}
+.about-right ul {
+    transform: translateX(-10%);
+}
+
+i{
+    margin-right: 10px;
+}
+.about img{
+   transform: translateX(-20%);
+   position: relative;
+
+}
+.row-class{
+    border-bottom: 1px solid gray;
+}
+.causes .text{
+    top: 53%;
+    left: 50%;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0,0,0, 0.6);
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 70px 0px;
+
+}
+.about-class .about-img {
+    background-image: url("https://hellloexpert.com/tf/html/nasarna/assets/images/breadcumb/img-1.jpg");
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    left: 0%;
+   
+}
+
+.list-about li{
+  display: inline-block;
+}
+.text h1{
+    color: white;
+    font-size: 40px;
+}
+.text p{
+    color: white;
+    font-size: 20px;
+}
+.text span{
+    color: orange;
+    font-size: 16px;
+
+}
+.phone{
+    border-right: 1px solid lightslategray;
+    margin-left: 30px;
+}
+.nav-list ul li{
+    display: inline-block;
+
+}
+.nav-list ul{
+    margin: 50px 20px;
+    font-size: 20px;
+}
+.nav-list li{
+    margin-left: 30px;
+}
+.nav-list li a{
+    color: gray;
+}
+.causes{
+    height: 400vh;
+}
+.about-down{
+    margin-top: 250px;
+}
+.about-down h4{
+    text-align: left;
+    color: orange;
+
+}
+.about-down h1{
+    text-align: left;
+    color: darkblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+   font-style: normal;
+   color: darkblue;
+    
+}
+.about-down img{
+    vertical-align: middle;
+    border: 0;
+    width: 530px;
+    margin-left: 90px;
+    margin-top: -100px;
+    
+}
+
+.about-down p{
+    color: #777777;
+    line-height: 1.6em;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.hero p{
+  margin-left: 190px;
+}
+.fa-universal-access{
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.donate{
+    padding: 10px 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+}
+.hero h1{
+    margin-left: 190px;
+    margin-top: -40px;
+}
+.about-des{
+    margin-top: 380px;
+}
+.fa-bottle-water{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.fa-bowl-food{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightcoral;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.fa-book{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: plum;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.fa-notes-medical{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: pink;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.about-des h3{
+    font-size: 25px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+  font-style: normal;
+  color: darkblue;
+  text-align: center;
+}
+.about-des p{
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.about-c p{
+   color: orange;
+   font-size: 20px;
+}
+.about-c h2{
+    font-size: 30px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+  font-style: normal;
+  color: darkblue;
+}
+.causes-des p{
+    text-align: center;
+    font-size: 17px;
+    color: orange;
+    font-family: "Roboto", sans-serif;
+}
+.causes-des h1{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+   font-weight: 700;
+  font-style: normal;
+  color: darkblue;
+  font-size: 40px;
+}
+.causes-des{
+    margin-top: 150px;
+}
+.progress-bar{
+    box-shadow: none;
+    position: relative;
+    animation: animate-positive 4s;
+    width: 80%;
+    height: 8px;
+    border: 1px solid ;
+    background-color: orange;
+    left: 10%;
+}
+.causes-flex h3{
+    margin-left: 30px;
+
+   
+}
+.causes-flex{
+    margin-top: 70px;
+}
+.amount{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+.amount li{
+    margin-left: 10px;
+}
+
+.btn {
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    border: 2px solid gray;
+    text-align: center;
+    background-color: blue;
+}
+.btn .learn{
+    border-right: 1px solid gray;
+}
+
+.btn li{
+    text-align: center;
+}
+.donatee{
+    transform: translateX(-15%);
+    padding: 10px 30px;
+    font-family: "Roboto", sans-serif;
+   font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+}
+.more{
+    transform: translateX(10%);
+    padding: 10px 30px;
+    font-family: "Roboto", sans-serif;
+   font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+}
+.progress-value h4{
+    width: 53px;
+    height: 30px;
+    background-color: #f7c33f;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f7c33f;
+    left: 55%;
+    position: relative;
+    color: #000;
+    opacity: 0.75;
+    font-weight: bold;
+    font-size: 12px;
+}
+.progress-value1 h4{
+    width: 53px;
+    height: 30px;
+    background-color: #f7c33f;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f7c33f;
+    left: 35%;
+    position: relative;
+    color: #000;
+    opacity: 0.75;
+    font-weight: bold;
+    font-size: 12px;
+}
+.progress-value2 h4{
+    width: 53px;
+    height: 30px;
+    background-color: #f7c33f;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f7c33f;
+    left: 65%;
+    position: relative;
+    color: #000;
+    opacity: 0.75;
+    font-weight: bold;
+    font-size: 12px;
+}
+.causes1{
+    margin-top: 50px;
+}
+

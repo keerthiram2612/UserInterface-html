@@ -1,22 +1,26 @@
 .section-nav ul li{
     display: inline-block;
+
     
 }
 .hero-container{
+    margin-left: 60px;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.3);
-    height: 100vh;
+    transform: translateY(-40%);
 }
 .header{
     position: relative;
     background-color: rgba(0, 0, 0, 0.3);
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(252, 247, 247, 0.2);
 }
 .row{
     position: relative;
+    z-index: 2;
+
 }
 .icon-row{
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(252, 247, 247, 0.2);
+    
 }
 .list a{
   font-size: 17px;
@@ -40,6 +44,7 @@
 }
 .section-nav ul{
     margin: 10px 10px;
+    
 }
 .section-nav a{
     color: white;
@@ -50,9 +55,10 @@
 .phone{
     border-right: 1px solid white;
     margin-left: 10px;
+    margin-top: -20px;
 }
-.donate{
-    padding: 10px 20px;
+.donnate{
+    padding: 10px 35px;
     border-radius: 10px;
     background-color: orange;
     border: none;
@@ -60,8 +66,10 @@
 .section-right ul {
    transform: translateX(32%);
 }
-.icon-row{
+.icon-hd{
     background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+
 }
 .fa-envelope{
     margin-right: 10px;
@@ -81,15 +89,15 @@
 }
 .hero{
     display: inline-block;
-    margin-left: 50px;
-    margin-top: 10px;
+    margin-left: -80px;
+    margin-top: -10px;
 }
 .nav-content h1{
     margin-right: -40px;
 }
 .fa-universal-access{
     margin-top: 20px;
-    margin-left: 120px;
+    margin-left: -120px;
 }
 .hero h1{
     margin-left: 180px;
@@ -98,6 +106,7 @@
 }
 .hero p{
     margin-left: 180px;
+    color: white;
 }
 .nav-list{
     height: 100px;
@@ -105,6 +114,7 @@
     align-items: center;
     text-align: center;
     display: flex;
+    margin-top: 20px;
 }
 .nav-list a{
    margin-left: -10px;
@@ -112,9 +122,6 @@
 .nav-list ul li{
     display: inline-block;
     margin: 50px 20px;
-}
-.phone-fa{
-    border-right: 1px solid white;
 }
 .body{
     margin-top: 150px;
@@ -147,8 +154,332 @@
     border: none;
 }
 .btn{
-    margin-left: 180px;
-    margin-top: -20px;
+    margin-left: -26px;
+    margin-top: 15px;
+}
+@media(max-width:640px){
+    .section-nav ul {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(30%);
+        margin-top: -10px;
+    }
+    .section-right ul{
+       display: flex;
+    transform: translateX(-200%);
+    margin-top: 55px;
+     
+    }
+    .section-right ul li{
+        margin-left: -10px;
+    }
+    .nav-list ul li{
+        margin: 20px;
+    }
+.donnate{
+    padding: 0px 30px;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.hero-container h1{
+    font-size: 30px;
+}
+.hero-container{
+    transform: translateY(-45%);
+    margin-left: -40px;
+}
+.nav-list{
+    opacity: 0.5;
+}
+.image{
+   height: 100%;
+}
+.fa-bottle-water{
+    transform: translateX(85%);
+}
+.fa-bowl-food{
+    transform: translateX(90%);
+}
+.fa-book{
+    transform: translateX(85%);
+}
+.fa-notes-medical{
+    transform: translateX(85%);
+}
+.about-des{
+   transform: translateY(-5%);
+}
+.abt-p {
+    transform: translateY(-200%);
+}
+.abt-h2{
+    transform: translateY(-50%);
+}
+.about-down h4{
+ margin-top: -100px;
+}
+.about-down h1{
+    font-size: 25px;
+}
+.about-down p{
+    font-size: 15px;
+    white-space: break;
+}
+.know{
+    transform: translateX(50%);
+    margin-bottom: 100px;
+}
+.about-down img{
+    transform: translateX(-23%);
+    
+    
 }
 
+}
+.about-des{
+    margin-top: 10px;
+}
+.about-des p{
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+.abt-h2 {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: darkblue;
+    
+}
+.abt-p {
+    color: orange;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.about-des h3{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: darkblue;
+}
+.fa-bottle-water{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.fa-bowl-food{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightcoral;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.fa-book{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: plum;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.fa-notes-medical{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: pink;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.about-body{
+    text-align: center;
+    color: blue;
+    position: relative;
+    transform: translateY(10%);
+    margin-top: 10px;
+}
+.dropdown-ul{
+    display: block;
+    margin-left: -35px;
+}
+.dropdown-ul a{
+    color: black;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin-left: 45px;
+    
+    
+}
+.drop a{
+    padding: 10px;
+    color: #777777;
+}
+.dropdown-menu a{
+    color:  #777777;
+}
 
+/* about-down */ 
+.about{
+    height: 250vh;
+}
+.about-down{
+    margin-top: 250px;
+}
+.about-down h4{
+    text-align: left;
+    color: orange;
+
+}
+.about-down h1{
+    text-align: left;
+    color: darkblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+   font-style: normal;
+   color: darkblue;
+    
+}
+.about-down img{
+    vertical-align: middle;
+    border: 0;
+    width: 530px;
+    margin-left: 90px;
+    margin-top: -100px;
+    
+}
+.know{
+    margin-left: -410px;
+    padding: 10px 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    opacity: 0.8;
+
+}
+.about-down p{
+    color: #777777;
+    line-height: 1.6em;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+.about-body{
+    text-align: center;
+    color: blue;
+    position: relative;
+}
+.hero p{
+  margin-left: 190px;
+}
+.fa-universal-access{
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.donate{
+    padding: 10px 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.hero h1{
+    margin-left: 190px;
+    margin-top: -40px;
+}
+.about-des{
+    margin-top: 90px;
+}
+.fa-bottle-water{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.fa-bowl-food{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightcoral;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.fa-book{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: plum;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.fa-notes-medical{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: pink;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.about-des h3{
+    font-size: 25px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+  font-style: normal;
+  color: darkblue;
+}
+.about-des p{
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+.about-c p{
+   color: orange;
+   font-size: 20px;
+}
+.about-c h2{
+    font-size: 30px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+  font-style: normal;
+  color: darkblue;
+}

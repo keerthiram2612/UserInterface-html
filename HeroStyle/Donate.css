@@ -1,0 +1,292 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.about-left ul li{
+    display: inline-block;
+    margin: 20px 10px;
+    transform: translateY(50%);
+}
+.about-right ul li{
+    display: inline-block;
+    margin: 20px 10px;
+}
+.about-right ul {
+    transform: translateX(-10%);
+}
+.about-right ul li a{
+    color: gray;
+    font-size: 16px;
+}
+.about-left ul li a{
+    color: gray;
+}
+i{
+    margin-right: 10px;
+}
+.donate img{
+   transform: translateX(-20%);
+   position: relative;
+
+}
+.row-class{
+    border-bottom: 1px solid black;
+}
+.donate .text{
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0,0,0, 0.6);
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 70px 0px;
+
+}
+.about-class .about-img {
+    background-image: url("https://hellloexpert.com/tf/html/nasarna/assets/images/breadcumb/img-1.jpg");
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    left: 0%;
+   
+}
+
+.list-about li{
+  display: inline-block;
+}
+.text h1{
+    color: white;
+    font-size: 40px;
+}
+.text p{
+    color: white;
+    font-size: 20px;
+}
+.text .donate{
+    color: orange;
+    font-size: 16px;
+
+}
+.text .home{
+    color: white;
+}
+.phone{
+    border-right: 1px solid lightslategray;
+    margin-left: 30px;
+}
+.nav-list ul li{
+    display: inline-block;
+
+}
+.nav-list ul{
+    margin: 50px 20px;
+    font-size: 20px;
+}
+.nav-list li{
+    margin-left: 30px;
+}
+.nav-list li a{
+    color: gray;
+}
+.about-body{
+    text-align: center;
+    color: blue;
+    position: relative;
+    transform: translateY(30%);
+    margin-top: 50px;
+}
+.hero p{
+  margin-left: 190px;
+}
+.fa-universal-access{
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.doonate{
+    padding: 10px 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.hero h1{
+    margin-left: 190px;
+    margin-top: -40px;
+}
+.donate{
+    height: 280vh;
+}
+.donate-body h2{
+    position: relative;
+    margin-top: 350px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    color: darkblue;
+
+}
+.first-form{
+    transform: translateX(40%);
+    margin-top: 40px;
+    border: 1px solid #7777;
+    width: 650px;
+    height: 150px;
+}
+.first-form h4{
+    text-align: left;
+    color: darkblue;
+    transform: translateX(5%);
+    margin-top: 20px;
+}
+.first-form1 h4{
+    text-align: left;
+    color: darkblue;
+    transform: translateX(5%);
+    margin-top: 20px;
+}
+.first-form input{
+    width: 600px;
+    height: 50px;
+    margin-top: -10px;
+    transform: translateX(5%);
+    border: 1px solid #7777;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+}
+.first-form1{
+    text-align: left;
+    color: darkblue;
+    transform: translateX(40%);
+    margin-top: 20px;
+    border: 1px solid #7777;
+    width: 650px;
+    height: 350px;
+}
+.first-form1 input{
+    height: 50px;
+    width: 300px;
+    transform: translateX(2%);
+    border: 1px solid #7777;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin: 10px 10px;
+}
+.first-form1 textarea {
+    height: 130px;
+    width: 630px;
+    transform: translateX(2%);
+    border: 1px solid #7777;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+}
+/*Footer Section*/
+.footer-down h1{
+    text-align: center;
+    color: white;
+}
+.footer-down{
+    background-color: darkblue;
+    margin-top: 100px;
+}
+.footer-down input{
+    width: 400px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: left;
+    color: gray;
+    font-size: 15px;
+    background-color: white;
+    transform: translateX(90%);
+    margin-top: 40px;
+    border: none;
+}
+.events-icons i{
+    color: white;
+
+}
+.events-icons{
+    display: flex;
+    list-style: none;
+    margin-left: -35px;
+}
+
+.footer-down button{
+    transform: translateX(230%);
+    height: 45px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: orange;
+    border: none;
+    color: white;
+    opacity: 0.6;
+    font-size: 15px;
+    
+}
+.para{
+color: white;
+font-size: 19px;
+}
+.footer-down p{
+    color: white;
+}
+.footer-down h3{
+    color: white;
+}
+.content-para{
+    color: white;
+}
+.news-text{
+  margin-left: 90px;
+  margin-top: -85px;
+}
+.links-li{
+    color: white;
+    list-style: none;
+    margin-left: -35px;
+}
+.contact-p{
+    transform: translateX(-4%);
+}
+.links-li li{
+    margin: 15px 0;
+    color: white;
+}
+.links-li li a{
+    color: white;
+}
+.contact-li{
+    color: white;
+    list-style: none;
+    margin-left: -35px;
+}
+.contact-li li a{
+    color: white;
+}
+.contact-li li{
+        margin: 15px 0;
+        color: white;
+   
+}
+.footer-con{
+    margin-top: 50px;
+}
+.hero-2{
+    margin-left: -110px;
+}
+.copy-right{
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+    font-family: "Roboto", sans-serif;
+   font-weight: 700;
+  font-style: normal;
+
+}
+.copyright{
+    background-color: rgba(0,0,0, 0.4);
+}

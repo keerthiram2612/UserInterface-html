@@ -1,0 +1,233 @@
+.about-left ul li{
+    display: inline-block;
+    margin: 20px 10px;
+    transform: translateY(50%);
+}
+.about-right ul li{
+    display: inline-block;
+    margin: 20px 10px;
+    
+}
+.about-right ul {
+    transform: translateX(-10%);
+}
+.about-right ul li a{
+    color: gray;
+    font-size: 16px;
+}
+.about-left ul li a{
+    color: gray;
+}
+
+i{
+    margin-right: 10px;
+}
+.about img{
+   transform: translateX(-20%);
+   position: relative;
+
+}
+.row-class{
+    border-bottom: 1px solid black;
+}
+.about .text{
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0,0,0, 0.6);
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 70px 0px;
+
+}
+.about-class .about-img {
+    background-image: url("https://hellloexpert.com/tf/html/nasarna/assets/images/breadcumb/img-1.jpg");
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    left: 0%;
+   
+}
+
+.list-about li{
+  display: inline-block;
+}
+.text h1{
+    color: white;
+    font-size: 40px;
+}
+.text p{
+    color: white;
+    font-size: 20px;
+}
+.text span{
+    color: orange;
+    font-size: 16px;
+
+}
+.phone{
+    border-right: 1px solid lightslategray;
+    margin-left: 30px;
+}
+.nav-list ul li{
+    display: inline-block;
+
+}
+.nav-list ul{
+    margin: 50px 20px;
+    font-size: 20px;
+}
+.nav-list li{
+    margin-left: 30px;
+}
+.nav-list li a{
+    color: gray;
+}
+.about{
+    height: 250vh;
+}
+.about-down{
+    margin-top: 250px;
+}
+.about-down h4{
+    text-align: left;
+    color: orange;
+
+}
+.about-down h1{
+    text-align: left;
+    color: darkblue;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+   font-style: normal;
+   color: darkblue;
+    
+}
+.about-down img{
+    vertical-align: middle;
+    border: 0;
+    width: 530px;
+    margin-left: 90px;
+    margin-top: -100px;
+    
+}
+.know{
+    margin-left: -410px;
+    padding: 10px 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    opacity: 0.8;
+
+}
+.about-down p{
+    color: #777777;
+    line-height: 1.6em;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+.about-body{
+    text-align: center;
+    color: blue;
+    position: relative;
+    transform: translateY(30%);
+    margin-top: 50px;
+}
+.hero p{
+  margin-left: 190px;
+}
+.fa-universal-access{
+    margin-left: 130px;
+    margin-top: 30px;
+}
+.donate{
+    padding: 10px 30px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.hero h1{
+    margin-left: 190px;
+    margin-top: -40px;
+}
+.about-des{
+    margin-top: 90px;
+}
+.fa-bottle-water{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.fa-bowl-food{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: lightcoral;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.fa-book{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: plum;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.fa-notes-medical{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: pink;
+    border-radius: 50px;
+    margin-left: 80px;
+}
+.about-des h3{
+    font-size: 25px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+  font-style: normal;
+  color: darkblue;
+}
+.about-des p{
+    color: gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+.about-c p{
+   color: orange;
+   font-size: 20px;
+}
+.about-c h2{
+    font-size: 30px;
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+  font-style: normal;
+  color: darkblue;
+}
