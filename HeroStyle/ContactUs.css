@@ -32,29 +32,24 @@ i{
 .row-class{
     border-bottom: 1px solid black;
 }
-.contactUs .text{
-    top: 55%;
-    left: 50%;
-    position: absolute;
-    z-index: 2;
-    background-color: rgba(0,0,0, 0.6);
-    width: 100%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 70px 0px;
-
-}
-.about-class .about-img {
+.about-class {
     background-image: url("https://hellloexpert.com/tf/html/nasarna/assets/images/breadcumb/img-1.jpg");
-    width: 100%;
-    height: 250px;
-    position: absolute;
-    background-position: center;
-    background-size: cover;
-    left: 0%;
-   
+    position: relative;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
 }
-
+.about-class::after{
+    content: '';
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
 .list-about li{
   display: inline-block;
 }
@@ -172,15 +167,16 @@ i{
     box-shadow: 0px 2px 9.8px 0.5px rgba(85, 85, 85, 0.07);
 }
 .form1{
-    margin-top: 400px;
-    
-    
+    margin-top: 350px; 
 }
 .form1 iframe{
     border: none;
     width: 100%;
     height: 100%;
     position: absolute;
+}
+.form-contact{
+    height: 400px;
 }
 .form h2{
     font-family: "Roboto", sans-serif;
@@ -193,8 +189,6 @@ i{
     border-left: none;
     border-right: none;
     border-top: none;
-    width: 250px;
-    transform: translateX(-10%);
     font-size: 15px;
 }
 .name1{
@@ -202,7 +196,6 @@ i{
     border-left: none;
     border-right: none;
     border-top: none;
-    width: 250px;
     font-size: 15px;
 
 }
@@ -214,9 +207,7 @@ i{
     border-left: none;
     border-right: none;
     border-top: none;
-    width: 527px;
     font-size: 15px;
-    transform: translateX(-3%);
     margin-top: 25px;
 }
 .name4{
@@ -224,11 +215,23 @@ i{
     border-left: none;
     border-right: none;
     border-top: none;
-    width: 527px;
+    width: auto;
     font-size: 15px;
-    transform: translateX(-3%);
-    height: 100px;
     margin-top: 25px;
+    
+}
+@media(max-width:640px){
+    .name4{
+        width: 85%;
+    }
+    .form{
+        margin-top: 50px;
+    }
+    .form1{
+        margin-top: 50px;
+        position: relative;
+    }
+    
 }
 .send{
     margin-top: 50px;
@@ -292,6 +295,11 @@ i{
     background-color: plum;
     border-radius: 60px;
 }
+.mailchimp-from{
+    max-width: 400px;
+    margin: auto;
+    position: relative;
+}
 .footer-down h1{
     text-align: center;
     color: white;
@@ -301,16 +309,14 @@ i{
     margin-top: 100px;
 }
 .footer-down input{
-    width: 400px;
-    height: 50px;
     border-radius: 50px;
     text-align: left;
     color: gray;
     font-size: 15px;
     background-color: white;
-    transform: translateX(90%);
-    margin-top: 40px;
     border: none;
+    width: 100%;
+    padding: 20px 15px;
 }
 .events-icons i{
     color: white;
@@ -323,8 +329,6 @@ i{
 }
 
 .footer-down button{
-    transform: translateX(230%);
-    height: 45px;
     padding: 10px 20px;
     border-radius: 50px;
     background-color: orange;
@@ -332,6 +336,9 @@ i{
     color: white;
     opacity: 0.6;
     font-size: 15px;
+    height: 100%;
+    position: absolute;
+    right: 0;
     
 }
 .para{

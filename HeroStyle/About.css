@@ -22,35 +22,38 @@
 i{
     margin-right: 10px;
 }
-.about img{
-   transform: translateX(-20%);
-   position: relative;
-
-}
 .row-class{
     border-bottom: 1px solid black;
 }
-.about .text{
-    top: 55%;
-    left: 50%;
-    position: absolute;
-    z-index: 2;
-    background-color: rgba(0,0,0, 0.6);
-    width: 100%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    padding: 70px 0px;
-
-}
-.about-class .about-img {
-    background-image: url("https://hellloexpert.com/tf/html/nasarna/assets/images/breadcumb/img-1.jpg");
-    width: 100%;
-    height: 250px;
-    position: absolute;
-    background-position: center;
+.image{
     background-size: cover;
-    left: 0%;
-   
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    background-position: fixed;
+    filter: blur(3px);
+    opacity: 0.9;
+    background-image: url("https://hellloexpert.com/tf/html/nasarna/assets/images/slider/slide-1.jpg");
+}
+.about-class{
+    background-image: url("https://hellloexpert.com/tf/html/nasarna/assets/images/breadcumb/img-1.jpg");
+    position: relative;
+    background-position: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+}
+.about-class::after{
+    content: '';
+    opacity: 0.5;
+    background: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 .list-about li{
@@ -140,7 +143,6 @@ i{
     text-align: center;
     color: blue;
     position: relative;
-    transform: translateY(30%);
     margin-top: 50px;
 }
 .hero p{
@@ -230,4 +232,54 @@ i{
    font-weight: 700;
   font-style: normal;
   color: darkblue;
+}
+
+/*Media query*/
+@media(max-width:640px){
+    .fa-bottle-water{
+        transform: translateX(85%);
+    }
+    .fa-bowl-food{
+        transform: translateX(90%);
+    }
+    .fa-book{
+        transform: translateX(85%);
+    }
+    .fa-notes-medical{
+        transform: translateX(85%);
+    }
+    .about-des{
+       transform: translateY(-5%);
+    }
+    .about-body .abt-p {
+        transform: translateY(-200%);
+        font-size: 20px;
+    }
+    .about-body .abt-h2{
+        transform: translateY(-50%);
+        font-size: 25px;
+    }
+    .about-down h4{
+     margin-top: -100px;
+    }
+    .about-down h1{
+        font-size: 25px;
+    }
+    .know{
+        margin-left: 10px;
+        margin-bottom: 100px;
+    }
+    .about-down img{
+        transform: translateX(-23%);
+    }
+    .about-des h3{
+        font-size: 15px;
+    }
+    .about-des p{
+        font-size: 15px;
+    }
+    .about-down p{
+        font-size: 15px;
+    }
+    
 }
